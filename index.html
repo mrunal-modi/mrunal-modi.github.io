@@ -4,39 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
+    <!-- Bootstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom CSS only -->
+    <link href="./styles.css" rel="stylesheet">
+    <!-- Title only -->
     <title>My Portfolio</title>
 </head>
 <body>
-    <!-- JavaScript Bundle with Popper -->
+    <!-- Bootstrap JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <!-- Bootstrap NavBar Start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projects
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/navbar-logo.png" class="logo" alt="logo"/> <!-- Portfolio -->
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="https://mrunal-modi.github.io/Eyes/">Eyes</a></li>
-            <li><a class="dropdown-item" href="https://mrunal-modi.github.io/PacMen/">PacMen</a></li>
-            <li><a class="dropdown-item" href="https://mrunal-modi.github.io/RealTimeBus/">RealTimeBus</a></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://mrunal-modi.github.io/Eyes/">Eyes</a></li>
+                  <li><a class="dropdown-item" href="https://mrunal-modi.github.io/PacMen/">PacMen</a></li>
+                  <li><a class="dropdown-item" href="https://mrunal-modi.github.io/RealTimeBus/">RealTimeBus</a></li>
+                </ul>
+              </li>
           </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        </div>
+      </div>
+    </nav>
+    <!-- Bootstrap NavBar End -->
 
+    <!-- Bootstrap Hero Start -->
+    <section id="hero">
+      <div class="container">
+        <div class="row"> 
+          <div class="col"> 
+            <h1>Software<br>Development</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" class="btn btn-dark btn-lg">Large button</button>
+          </div>
+            <div class="col img-col">
+              <img src="./assets/hero-logo.png" alt="hero-img" class="img-fluid">
+            </div>
+            <div class="row cards">
+              <div class="col-md-4 d-flex justify-content-center">
+              <!-- Bootstrap Col1 > Card Start -->
+              <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <img src="./assets/LinkedIn-Icon.png", alt="Service One" class="icon">
+                <h5 class="card-title">LinkedIn</h5>
+                <p class="card-text"></p>
+                <a href="https://www.linkedin.com/in/mrunalmodi/" class="card-link">Link</a>
+              </div>
+            </div>
+            <!-- Bootstrap Col1 > Card End -->
+            <!-- Bootstrap Col2 > Card Start -->
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <img src="./assets/GitHub-Icon.png", alt="Service Two" class="icon">
+                <h5 class="card-title">GitHub</h5>
+                <p class="card-text"></p>
+                <a href="https://github.com/mrunal-modi/mrunal-modi.github.io" class="card-link">Link</a>
+              </div>
+            </div>
+            <!-- Bootstrap Col2 > Card End -->
+            <!-- Bootstrap Col3 > Card Start -->
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <img src="./assets/Gmail-Icon.png", alt="Service Three" class="icon">
+                <h5 class="card-title">Contact</h5>
+                <p class="card-text"></p>
+                <a href="mailto: mrunal.modi@gmail.com" class="Send EmaiL">Link</a>
+              </div>
+            </div>
+            <!-- Bootstrap Col3 > Card End -->
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap Hero End -->
 </body>
 </html>
