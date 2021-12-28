@@ -20,14 +20,14 @@ var contacts = {
         "firstName": "AreWeIn",
         "lastName": "App",
         "gender": "Neutral",
-        "age": 21,
+        "age": 0,
         "address": {
             "streetAddress": "Glen Iris",
             "city": "Melbourne",
             "state": "VIC",
             "postalCode": "3146"
         },
-        "emailAddress": "arewein@arewein.com",
+        "emailAddress": "admin@arewein.com",
         "phoneNumbers": [{ "type": "mobile", "number": "61888888888" }]
       }
     ]
