@@ -17,8 +17,8 @@ var contacts = {
       },
       {
         "userId": 2,
-        "firstName": "AreWeIn",
-        "lastName": "App",
+        "firstName": "Are We In?",
+        "lastName": "",
         "gender": "Neutral",
         "age": 0,
         "address": {

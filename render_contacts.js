@@ -4,13 +4,9 @@ function renderContacts(contacts, container) {
     let html = '';
     for (let i = 0; i < len; i++) {
         // if (users[i]['userId'] == 1) { //Get First User
-            html += '<li class="post">' 
-            + '<h1>' + users[i]['firstName'] + " " + users[i]['lastName'] + '</h1>' 
-            + '<h2>' + "Gender: " + users[i]['gender'] + '</h2>'
-            + '<h2>' + "Age: " + users[i]['age'] + '</h2>'
-            + '<h2>' + "City: " + users[i]['address']['city'] + '</h2>'
-            + '<h2>' + "Email: " + users[i]['emailAddress'] + '</h2>'
-            + '<h2>' + "Mobile: " + users[i]['phoneNumbers'][0]['number'] + '</h2>' 
+            html += '<class="post">' 
+            + '<h2>' + users[i]['firstName'] + " " + users[i]['lastName'] + '</h1>' 
+            + '<h4>' + users[i]['emailAddress'] + '</h2>'
             + '<br>';
             }
         // }
