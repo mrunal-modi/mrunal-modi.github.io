@@ -2,6 +2,9 @@ var contacts = {
     "users": [
       {
         "userId": 1,
+        "linkedin_url": "https://www.linkedin.com/in/mrunalmodi/",
+        "github_url": "https://github.com/mrunal-modi/",
+        "twitter_url": "https://twitter.com/mrunalmodi/",
         "firstName": "Mrunal",
         "lastName": "Modi",
         "gender": "Male",
@@ -17,6 +20,9 @@ var contacts = {
       },
       {
         "userId": 2,
+        "linkedin_url": "https://www.linkedin.com/in/mrunalmodi/",
+        "github_url": "https://github.com/mrunal-modi/",
+        "twitter_url": "https://twitter.com/mrunalmodi/",
         "firstName": "Are We In?",
         "lastName": "",
         "gender": "Neutral",
