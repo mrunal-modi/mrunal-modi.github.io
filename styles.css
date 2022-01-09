@@ -20,7 +20,7 @@ footer {
 /* grid class: main */
 .main {
     display: grid;
-    grid-template-columns: 100px 1fr 1fr 100px;
+    grid-template-columns: 50px 1fr 1fr 50px;
     grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr auto;
     gap: 5px;
     height: 90vh;
