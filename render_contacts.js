@@ -5,8 +5,8 @@ function renderContacts(contacts, container) {
     for (let i = 0; i < len; i++) {
         // if (users[i]['userId'] == 1) { //Get First User
             html += '<class="post">' 
-            + '<h2>' + users[i]['firstName'] + " " + users[i]['lastName'] + '</h1>' 
-            + '<h4>' + users[i]['emailAddress'] + '</h2>'
+            + '<h2>' + users[i]['firstName'] + " " + users[i]['lastName'] + '</h2>' 
+            + '<h4>' + users[i]['emailAddress'] + '</h4>'
             + '<br>';
             }
         // }
