@@ -65,3 +65,9 @@ footer {
 font-family: 'Nunito Sans', sans-serif;
 font-size: 12px;
 }
+
+pre {
+    text-align: left;
+    white-space: pre-line;
+    color: blue;
+  }
