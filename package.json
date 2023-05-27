@@ -1,7 +1,7 @@
 {
   "name": "Mrunal-Modi",
   "version": "0.1.0",
-  "homepage": "https://mrunal-modi.github.io/mrunal-modi.github.io",
+  "homepage": "https://mrunal-modi.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
