@@ -58,7 +58,7 @@ export const VIEWS = [{
             // "supTitle": "Mrunal Modi",
             "title": "Mrunal Modi",
             "subtitle": "Enterprise Solutions Engineer",
-            "text": "15+ years consulting experience architecting and operationalizing enterprise IT storage architectures along with integrating them into large-scale production applications across Hybrid MultiCloud.",
+            "text": "Pre-sales Solutions engineering experience architecting and operationalizing enterprise IT storage architectures along with integrating them into large-scale production applications across Hybrid MultiCloud.",
             "actionButtons": [
                 {
                     "label": "Hire",
@@ -100,17 +100,17 @@ export const VIEWS = [{
                 {
                     "title": "Digital Transformation",
                     "img": "/images/digi-transform.png",
-                    "description": "We combine strategic insights with digital know-hows to help you formulate new business models, modernize your legacy systems and create your market-ready digital products and platforms.",
+                    "description": "Experience in combining strategic insights with digital know-hows to help you formulate new business models, modernize your legacy systems and create your market-ready digital products and platforms.",
                 },
                 {
                     "title": "Product Development",
                     "img": "/images/product-dev.png",
-                    "description": "Consumers hunger for more. We research and create new technology solutions based on your business challenges and turn them into brand-new marketable products.",
+                    "description": "Ability to research and create new technology solutions based on your business challenges and turn them into brand-new marketable products.",
                 },
                 {
                     "title": "Innovation & Technology",
                     "img": "/images/technology.png",
-                    "description": "We help businesses embrace disruptive technologies so they can drive innovative growth from within and transition better long-term alongside surrounding mature digital organizations. We will help you start small and scale fast.",
+                    "description": "Help businesses embrace disruptive technologies so they can drive innovative growth from within and transition better long-term alongside surrounding mature digital organizations. We will help you start small and scale fast.",
                 }
             ],
             "bgColor": "#FFFFFF",
