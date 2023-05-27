@@ -22,7 +22,7 @@ export const FOOTER_CONFIG = {
     // bgColor: "#f2f2f2",
     // borderColor: "#f2f2f2",
     // border: "#f2f2f2",
-    copyrightInfo: "All Rights Reserved, Mrunal Modi",
+    copyrightInfo: "All Rights Reserved",
     textColor: "",
     minHeight: "",
     subFooterBgColor: "",
