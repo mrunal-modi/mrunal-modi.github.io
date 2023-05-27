@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e94804b.css",
-    "main.js": "/static/js/main.653539f3.js",
-    "static/media/notification.svg?s3g3t9": "/static/media/notification.5d0158671dd860c714c4.svg",
-    "static/media/notification.eot": "/static/media/notification.3657084dc0419605a91c.eot",
-    "static/media/notification.woff?s3g3t9": "/static/media/notification.c392cd33d9d9de730f9d.woff",
-    "static/media/notification.ttf?s3g3t9": "/static/media/notification.c5d9251ea82e42f75381.ttf",
-    "index.html": "/index.html",
-    "main.0e94804b.css.map": "/static/css/main.0e94804b.css.map",
-    "main.653539f3.js.map": "/static/js/main.653539f3.js.map"
+    "main.css": "/mrunal-modi.github.io/static/css/main.a4b09ddb.css",
+    "main.js": "/mrunal-modi.github.io/static/js/main.653539f3.js",
+    "static/media/notification.svg?s3g3t9": "/mrunal-modi.github.io/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/mrunal-modi.github.io/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/mrunal-modi.github.io/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/mrunal-modi.github.io/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/mrunal-modi.github.io/index.html",
+    "main.a4b09ddb.css.map": "/mrunal-modi.github.io/static/css/main.a4b09ddb.css.map",
+    "main.653539f3.js.map": "/mrunal-modi.github.io/static/js/main.653539f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e94804b.css",
+    "static/css/main.a4b09ddb.css",
     "static/js/main.653539f3.js"
   ]
 }
