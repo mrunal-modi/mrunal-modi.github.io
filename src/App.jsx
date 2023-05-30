@@ -1,41 +1,28 @@
+import { useState, useCallback } from "react";
 import "./App.scss";
-import { useCallback, useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import WebGPT from "./components/webGPT";
+import * as views from "./pages";
+import {HEADER_CONFIG, FOOTER_CONFIG, SOCIAL_LINKS, THEME} from "./pages/default.config";
 
-import Header from "./components/sections/header/header";
-import Sidebar from "./components/common/sidebar/sidebar";
-import Footer from "./components/sections/footer/footer";
-import PageManager from "./managers/page.manager";
-import { useConfig } from "./hooks/ConfigContext";
 
 const App = () => {
 
-  const { header, views } = useConfig();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const toggleSidebar = useCallback(() => {
     setIsSidebarOpen(!isSidebarOpen);
-  }, [isSidebarOpen])
+  }, [isSidebarOpen]);
+
   return (
-    <>
-      <Header
-        toggleSidebar={toggleSidebar}
-      />
-      <Sidebar
-        toggleSidebar={toggleSidebar}
-        isOpen={isSidebarOpen}
-      />
-      <main
-        className="main"
-        style={{
-          paddingTop: header.position === 'fixed' ? header.height : ""
-        }}
-      >
-        <Routes>
-          <Route path="*" element={<PageManager views={views}/>} />
-        </Routes>
-      </main>
-      <Footer />
-    </>
+    <div className="app">
+        <main
+          className="main"
+        >
+          <Routes>
+            <Route path="*" element={< WebGPT views={views} header={HEADER_CONFIG} footer={FOOTER_CONFIG} socials={SOCIAL_LINKS} themes={THEME}/>} />
+          </Routes>
+        </main>
+    </div>
   );
 };
 

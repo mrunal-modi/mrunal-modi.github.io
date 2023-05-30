@@ -9,14 +9,7 @@ const ContactForm = ({
             "validation": "required",
             "name": "full_name",
             "placeholder": "e.g. John Sharma",
-            "width": "50%"
-        },
-        {
-            "label": "Phone",
-            "type": "number",
-            "name": "phone",
-            "placeholder": "e.g. +91 888 888 8888",
-            "width": "50%"
+            "width": "100%"
         },
         {
             "label": "Email",
@@ -24,17 +17,18 @@ const ContactForm = ({
             "validation": "email",
             "name": "email",
             "placeholder": "e.g. john@example.com",
+            "width": "100%"
         },
         {
             "label": "Describe your query",
             "type": "textarea",
             "placeholder": "e.g. Can you please help me?",
-            "name": "description"
+            "name": "description",
+            "width": "100%"
         }
     ],
     id = "",
     isEmailRequired = true,
-    isPhoneRequired = true,
     isMessageRequired = true,
     submitButtonStyle = "primary",
     title = "Contact Us",
@@ -43,19 +37,18 @@ const ContactForm = ({
         return inputs.filter((el) => {
             if (!isEmailRequired && el.name === "email")
                 return false
-            if (!isPhoneRequired && el.name === "phone")
-                return false
             if (!isMessageRequired && el.name === "description")
                 return false
             return true
         })
-    }, [inputs, isEmailRequired, isPhoneRequired, isMessageRequired])
+    }, [inputs, isEmailRequired, isMessageRequired])
     return (
         <Form
             id={id}
             inputs={_inputs}
             submitButtonStyle={submitButtonStyle}
             title={title}
+            emailTemplateId={"template_hy1kb6x"}
         />
     )
 }

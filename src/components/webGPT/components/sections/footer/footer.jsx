@@ -69,7 +69,7 @@ export default function Footer() {
 					{isSocial &&
 						<div className="social">
 							<SocialContact
-								// title={"Follow"}
+								title={"Follow Us"}
 							/>
 						</div>
 					}
