@@ -61,7 +61,7 @@ const Home = {
                     "description": "Ability to research and create new technology solutions based on your business challenges and turn them into brand-new marketable products.",
                 },
                 {
-                    "title": "Innovation & Technology",
+                    "title": "Technology",
                     // "img": "/images/area3.png",
                     "description": "Help businesses embrace disruptive technologies so they can drive innovative growth from within and transition better long-term alongside surrounding mature digital organizations.",
                 }
