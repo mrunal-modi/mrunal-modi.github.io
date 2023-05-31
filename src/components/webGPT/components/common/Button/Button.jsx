@@ -28,7 +28,7 @@ const Button = ({
             outline: "none",
             border: "unset"
         }
-    }, [PRIMARY_COLOR, SECONDARY_COLOR,bgColor, textColor, borderRadius, height]);
+    }, [PRIMARY_COLOR, SECONDARY_COLOR, bgColor, textColor, borderRadius, height]);
 
 
     const handleClick = (e) => {
