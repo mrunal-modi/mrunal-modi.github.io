@@ -11,19 +11,19 @@ const Projects = {
             "cardInfo": [
                 {
                     "title": "DevStack Tutor",
-                    "description": "The goal of this project is to share my coding knowledge using live sandobox environments.",
+                    "description": "The goal of this project is to share coding knowledge using live sandobox environments.",
                     "label": "devstacktutor",
                     "href": "https://devstacktutor.com/"
                 },
                 {
                     "title": "My Example App",
-                    "description": "The goal of this project is to demo fullstack MERN stack apps with CRUD features.",
+                    "description": "The goal of this project is to demo fullstack (MERN) apps with CRUD features.",
                     "label": "myexampleapp",
                     "href": "https://myexampleapp.com/"
                 },
                 {
                     "title": "YouTube",
-                    "description": "The goal of this project is to simplify coding web apps by sharing short examples.",
+                    "description": "The goal of this project is to simplify coding web apps by sharing short videos.",
                     "label": "YouTube",
                     "href": "https://www.youtube.com/@devstacktutor"
                 }
