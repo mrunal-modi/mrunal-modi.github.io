@@ -11,7 +11,7 @@ const Projects = {
             "cardInfo": [
                 {
                     "title": "DevStack Tutor",
-                    "description": "The goal of this project is to share coding knowledge using live sandobox environments.",
+                    "description": "The goal of this project is to share coding knowledge using live sandbox environments.",
                     "label": "devstacktutor",
                     "href": "https://devstacktutor.com/"
                 },
