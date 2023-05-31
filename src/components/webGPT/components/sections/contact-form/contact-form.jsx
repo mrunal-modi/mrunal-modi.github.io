@@ -49,6 +49,8 @@ const ContactForm = ({
             submitButtonStyle={submitButtonStyle}
             title={title}
             emailTemplateId={"template_hy1kb6x"}
+            method={"email"}
+            submitButtonBgColor={"black"}
         />
     )
 }

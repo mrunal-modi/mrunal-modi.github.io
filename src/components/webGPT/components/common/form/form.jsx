@@ -72,8 +72,11 @@ const Form = ({
                 throw new Error("Template Id is required to send form data as email");
             }
             await sendEmail(emailTemplateId, values);
+            setNotification({ type: "success", detail: "Successfully sent email" });
         } catch (err) {
-            setError(err);
+            console.log(err);
+            setError(JSON.stringify(err));
+            
         } finally {
             setLoading(false);
             setState({});
@@ -81,7 +84,7 @@ const Form = ({
     }, []);
 
     return (
-        <form className='form' onSubmit={handleSubmit}>
+        <form className='form'>
             {inputs?.map((el, i) =>
                 <label key={i} style={{ width: el.width || "" }}>
                     <span>
@@ -99,6 +102,7 @@ const Form = ({
                     bgColor={submitButtonBgColor} 
                     textColor={submitButtonTextColor}
                     borderRadius={submitButtonBorder || 5}
+                    onClick={handleSubmit}
                 >
                     {loading ? <Spinner size={1} /> : submitButtonLabel}
                 </Button>
